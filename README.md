@@ -9,8 +9,11 @@ Working hours managment UI
 ## How to start development env
 1) easiest option is using docker `docker-compose up` and [http://localhost:8080/](http://localhost:8080/)
 - then you only need docker installed and thats it
-2) second option is to install Laravel through composer and serve it with `php artisan serve --port=8080` ([Laravel Quickstart](https://laravel.com/docs/4.2/quick))
+2) second option is to install Laravel through composer 
 - this case make sure you have all needed dependencies installed
+- `composer install`
+- and then serve it `php artisan serve --port=8080` ([Laravel Quickstart](https://laravel.com/docs/4.2/quick))
+
 
 ### Dependencies
 - PHP 7.3+
