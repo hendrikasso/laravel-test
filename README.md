@@ -7,7 +7,7 @@ Working hours managment UI
 - Dashboard: [AdminLTE3](https://adminlte.io/themes/v3/)
 
 ## How to start development env
-1) easiest option is using docker `docker-compose up`
+1) easiest option is using docker `docker-compose up` and [http://localhost:8080/](http://localhost:8080/)
 - then you only need docker installed and thats it
 2) second option is to install Laravel through composer and serve it with `php artisan serve --port=8080` ([Laravel Quickstart](https://laravel.com/docs/4.2/quick))
 - this case make sure you have all needed dependencies installed

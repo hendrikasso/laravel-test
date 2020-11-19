@@ -5,5 +5,8 @@ services:
         context: .
         dockerfile: ./docker/Dockerfile
       image: 'dashboardapp'
+      env_file:
+        - ./local.env
       ports:
         - 8080:80
+      
